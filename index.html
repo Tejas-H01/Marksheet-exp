@@ -2,6 +2,20 @@
 <html>
 <head>
     <title>Marksheet</title>
+    <script>
+        function getHighestMarks() {
+            let marks = [95, 92, 50, 99, 49, 90, 94, 50, 100, 98]; // add the marks from your table
+            let highest = Math.max(...marks);
+            alert("Highest Marks: " + highest);
+        }
+
+        function getAverageMarks() {
+            let marks = [95, 92, 50, 99, 49, 90, 94, 50, 100, 98]; // same marks array
+            let total = marks.reduce((a, b) => a + b, 0);
+            let average = total / marks.length;
+            alert("Average Marks: " + average.toFixed(2));
+        }
+    </script>
 </head>
 <body bgcolor="#fffdd0" style="margin: 500px; padding: 20px;" > <!--The border attribute was removed -->
     <h2 align="center ">Mahrashtra State Board of Technical Education </h2>
@@ -19,7 +33,7 @@
             <th rowspan="" colspan="2"><font size="1" ">TOTAL MARKS </font></th>
             <th rowspan="3"><font size="1">CERDITS</font></th>
         </tr>
-        <tr height="20">
+        <tr height="20">    
             <th rowspan="2" valign="middle" align="center"><font size="1">MAX.</font></th>
             <th  rowspan="2""><font size="1"> OBT.</font></th>
         </tr>
@@ -291,12 +305,10 @@
 
     </table>
 
-
-    
-
-
-    
-
+    <div style="text-align:center; margin-top:20px;">
+        <button onclick="getHighestMarks()">Show Highest Marks</button>
+        <button onclick="getAverageMarks()">Show Average Marks</button>
+    </div>
 </body>
 
 
