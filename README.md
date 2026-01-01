@@ -6,10 +6,10 @@ The main goal was to practice **HTML tables, borders, and formatting** while get
 ---
 
 ## Features  
-- Built entirely using **HTML** (no CSS used)  
-- Uses **tables** for layout and structure  
-- Basic formatting with borders and alignment  
-- Simulates a marksheet-style output  
+- Built entirely using **HTML** (no CSS used).
+- Uses **tables** for layout and structure.  
+- Basic formatting with borders and alignment.  
+- Simulates a marksheet-style output.
 
 ---
 
