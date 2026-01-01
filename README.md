@@ -41,3 +41,9 @@ Future improvements may include:
 - Adding **CSS styling** for better visuals.  
 - Exploring **responsive design** for different screen sizes.  
 - Automating marksheet generation with **JavaScript**. 
+
+## 👨‍💻 Author
+
+**Tejas Halvankar**  
+📧 Email: `tejashalvankar0@gmail.com`  
+🌐 GitHub: [Tejas-H01](https://github.com/Tejas-H01)
