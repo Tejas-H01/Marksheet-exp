@@ -42,6 +42,8 @@ Future improvements may include:
 - Exploring **responsive design** for different screen sizes.  
 - Automating marksheet generation with **JavaScript**. 
 
+
+
 ## 👨‍💻 Author
 
 **Tejas Halvankar**  
